@@ -1,0 +1,30 @@
+{
+  "name": "expressdemo",
+  "version": "1.0.0",
+  "description": "express learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "DEBUG=app,app:* nodemon app.js",
+    "debug": "DEBUG=* nodemon app.js"
+  },
+  "author": "Mikk-Mait Kivi",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "debug": "^4.3.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongodb": "^5.1.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.21"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "delay": 2500,
+    "env": {
+      "PORT": 8079
+    }
+  },
+  "type": "module"
+}

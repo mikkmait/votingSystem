@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/voting.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="main">
+  <form id="vote1Form" action="/voting/vote1Confirm" method="GET">
+    <div class="votingBox">
+      <% dancers1.map((dancer) => { %>
+        <div class="dancer">
+          <input type="radio" name="vote1" value="<%=dancer.nick%>">
+          <label for="<%=dancer.nick%>"><span class="name"> <%=dancer.nick%> </span></label>
+        </div>
+      <% }) %>
+      <div class="submit">
+        <input type="submit" name="vote1Submit" class="submit">
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>

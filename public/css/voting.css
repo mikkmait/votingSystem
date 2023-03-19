@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(127, 127, 127, 100%);
+}
+
+a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 2.8rem;
+}
+
+.main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.link {
+    display: table-caption;
+    background-color: rgba(127, 127, 127, 100%);
+    border-radius: 8px;
+    width: 320px;
+    height: 128px;
+    line-height: 128px;
+    letter-spacing: 0.25rem;
+    text-align: center;
+
+    box-shadow:
+    4px 4px 16px rgba(87, 87, 87, 100%),
+    -4px -4px 16px rgba(167, 167, 167, 100%),
+    inset 4px 4px 20px rgba(87, 87, 87, 10%),
+    inset -4px -4px 20px rgba(167, 167, 167, 10%);
+    transition: box-shadow .5s;
+}
+
+.link a {
+    color: rgba(87, 87, 87, 100%);
+    transition: color 1s;
+}
+
+.link:hover {
+    box-shadow:
+    4px 4px 16px rgba(87, 87, 87, 10%),
+    -4px -4px 16px rgba(167, 167, 167, 10%),
+    inset 4px 4px 20px rgba(87, 87, 87, 100%),
+    inset -4px -4px 20px rgba(167, 167, 167, 100%);
+    transition: box-shadow .5s;
+}
+
+.link:hover a {
+    color: rgba(127, 127, 127, 100%);
+    text-shadow: 4px 4px 16px rgba(87, 87, 87, 100%);
+    transition: color .5s, text-shadow 1s;
+}
+
+.votingBox {
+  display: flex;
+  flex-direction: column;
+  min-width: 256px;
+  max-width: 640px;
+  padding: .5rem;
+  gap: .5rem;
+}
+
+.dancer {
+  border: 1px solid black;
+  width: 100%;
+  padding: .5rem;
+}
+
+label {
+  font-size: 2rem;
+  width: 256px;
+}
+
+.submit {
+  font-size: 2rem;
+  width: 256px;
+}
