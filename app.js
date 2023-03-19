@@ -6,6 +6,7 @@ import { fileURLToPath } from 'url';
 import path from 'path';
 import votingRouter from './src/routers/votingRouter.js';
 import adminRouter from './src/routers/adminRouter.js';
+import resultRouter from './src/routers/resultRouter.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -22,6 +23,7 @@ app.set('view engine', 'ejs');
 
 app.use('/voting', votingRouter);
 app.use('/admin', adminRouter);
+app.use('/result', resultRouter);
 
 app.get('/', (req, res) =>  {
   res.render('index', {title: 'Voting page for Kriis.ID', data: ['a', 'b', 'c']});
