@@ -1,11 +1,13 @@
 import express from 'express';
 import Debug from 'debug';
 import { MongoClient } from 'mongodb';
+import * as dotenv from 'dotenv';
+dotenv.config();
 
 const adminRouter = express.Router();
 const debug = Debug('app');
 
-const url = 'mongodb+srv://kriisid:6UNt3yQEzYVIZXHM@kriisidcluster.elkybmy.mongodb.net/?retryWrites=true&w=majority';
+const url = process.env.ATLAS_URI;
 const client = new MongoClient(url);
 
 const dbName = client.db('votingSystem');
