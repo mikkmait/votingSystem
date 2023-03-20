@@ -1,0 +1,16 @@
+{
+  "name": "resource",
+  "version": "1.0.0",
+  "description": "testing stuff",
+  "main": "test.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "test",
+    "node"
+  ],
+  "author": "Mikk-Mait Kivi",
+  "license": "ISC",
+"type": "module"
+}

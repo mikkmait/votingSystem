@@ -1,0 +1,219 @@
+[{
+  "_id": {
+    "$oid": "6410e9090e7a59f952374513"
+  },
+  "name": "Alain Divoux",
+  "nick": "Alain",
+  "vote1": true,
+  "vote1Count": 0,
+  "vote2": true,
+  "vote2Count": 0,
+  "vote3": true,
+  "vote3Count": 0,
+  "answer1ENG": "",
+  "answer1EST": "",
+  "answer2ENG": "",
+  "answer2EST": "",
+  "answer3ENG": "",
+  "answer3EST": "",
+  "result": false
+},{
+  "_id": {
+    "$oid": "6410e9090e7a59f952374514"
+  },
+  "name": "Benjamin Kyprianos",
+  "nick": "Ben",
+  "vote1": true,
+  "vote1Count": 0,
+  "vote2": false,
+  "vote2Count": 0,
+  "vote3": false,
+  "vote3Count": 0,
+  "answer1ENG": "",
+  "answer1EST": "",
+  "answer2ENG": "",
+  "answer2EST": "",
+  "answer3ENG": "",
+  "answer3EST": "",
+  "result": false
+},{
+  "_id": {
+    "$oid": "6410e9090e7a59f952374515"
+  },
+  "name": "Colby Samuel Louis Catton",
+  "nick": "Colby",
+  "vote1": true,
+  "vote1Count": 0,
+  "vote2": true,
+  "vote2Count": 0,
+  "vote3": true,
+  "vote3Count": 0,
+  "answer1ENG": "",
+  "answer1EST": "",
+  "answer2ENG": "",
+  "answer2EST": "",
+  "answer3ENG": "",
+  "answer3EST": "",
+  "result": false
+},{
+  "_id": {
+    "$oid": "6410e9090e7a59f952374516"
+  },
+  "name": "Georgia Toni Hyrkäs",
+  "nick": "Georgia",
+  "vote1": true,
+  "vote1Count": 0,
+  "vote2": true,
+  "vote2Count": 0,
+  "vote3": true,
+  "vote3Count": 0,
+  "answer1ENG": "",
+  "answer1EST": "",
+  "answer2ENG": "",
+  "answer2EST": "",
+  "answer3ENG": "",
+  "answer3EST": "",
+  "result": false
+},{
+  "_id": {
+    "$oid": "6410e9090e7a59f952374517"
+  },
+  "name": "Gerardo Avelar",
+  "nick": "Gerardo",
+  "vote1": true,
+  "vote1Count": 0,
+  "vote2": true,
+  "vote2Count": 0,
+  "vote3": true,
+  "vote3Count": 0,
+  "answer1ENG": "",
+  "answer1EST": "",
+  "answer2ENG": "",
+  "answer2EST": "",
+  "answer3ENG": "",
+  "answer3EST": "",
+  "result": false
+},{
+  "_id": {
+    "$oid": "6410e9090e7a59f952374518"
+  },
+  "name": "Gus Upchurch",
+  "nick": "Gus",
+  "vote1": true,
+  "vote1Count": 0,
+  "vote2": true,
+  "vote2Count": 0,
+  "vote3": true,
+  "vote3Count": 0,
+  "answer1ENG": "",
+  "answer1EST": "",
+  "answer2ENG": "",
+  "answer2EST": "",
+  "answer3ENG": "",
+  "answer3EST": "",
+  "result": false
+},{
+  "_id": {
+    "$oid": "6410e9090e7a59f952374519"
+  },
+  "name": "Maria Engel",
+  "nick": "Maria",
+  "vote1": true,
+  "vote1Count": 0,
+  "vote2": true,
+  "vote2Count": 0,
+  "vote3": true,
+  "vote3Count": 0,
+  "answer1ENG": "",
+  "answer1EST": "",
+  "answer2ENG": "",
+  "answer2EST": "",
+  "answer3ENG": "",
+  "answer3EST": "",
+  "result": false
+},{
+  "_id": {
+    "$oid": "6410e9090e7a59f95237451a"
+  },
+  "name": "Sayaka Nagahiro",
+  "nick": "Sayaka",
+  "vote1": true,
+  "vote1Count": 0,
+  "vote2": true,
+  "vote2Count": 0,
+  "vote3": true,
+  "vote3Count": 0,
+  "answer1ENG": "",
+  "answer1EST": "",
+  "answer2ENG": "",
+  "answer2EST": "",
+  "answer3ENG": "",
+  "answer3EST": "",
+  "result": false
+},{
+  "_id": {
+    "$oid": "6410e9090e7a59f95237451b"
+  },
+  "name": "William Halton",
+  "nick": "Will",
+  "vote1": true,
+  "vote1Count": 0,
+  "vote2": true,
+  "vote2Count": 0,
+  "vote3": true,
+  "vote3Count": 0,
+  "answer1ENG": "",
+  "answer1EST": "",
+  "answer2ENG": "",
+  "answer2EST": "",
+  "answer3ENG": "",
+  "answer3EST": "",
+  "result": false
+},{
+  "_id": {
+    "$oid": "6410e9090e7a59f95237451c"
+  },
+  "name": "Yukiko Yanagi",
+  "nick": "Yukiko",
+  "vote1": true,
+  "vote1Count": 0,
+  "vote2": false,
+  "vote2Count": 0,
+  "vote3": true,
+  "vote3Count": 0,
+  "answer1ENG": "",
+  "answer1EST": "",
+  "answer2ENG": "",
+  "answer2EST": "",
+  "answer3ENG": "",
+  "answer3EST": "",
+  "result": false
+},{
+  "_id": {
+    "$oid": "6410e9090e7a59f95237451d"
+  },
+  "name": "Yuta Irikura",
+  "nick": "Yuta",
+  "vote1": true,
+  "vote1Count": 0,
+  "vote2": true,
+  "vote2Count": 0,
+  "vote3": true,
+  "vote3Count": 0,
+  "answer1ENG": "",
+  "answer1EST": "",
+  "answer2ENG": "",
+  "answer2EST": "",
+  "answer3ENG": "",
+  "answer3EST": "",
+  "result": false
+},{
+  "_id": {
+    "$oid": "64178c02573e1097b0daaab8"
+  },
+  "winner": null,
+  "trueWinner": true,
+  "vote1Count": 0,
+  "vote2Count": 0,
+  "vote3Count": 0
+}]

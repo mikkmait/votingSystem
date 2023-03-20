@@ -1,0 +1,66 @@
+[{
+"name": "First Lastname",
+"nick": "Nickname",
+"voting":
+	 { "vote1": { "valid": true, "count": 0 },
+		"vote2": { "valid": false, "count": 0 },
+		"vote3": { "valid": true, "count": 0 },
+		"vote4": { "valid": true, "count": 0 } },
+"qa":
+	{	"ENG": 
+			[{"q": "Question no. 1",
+			"a": "Answer no.1"},
+			{"q": "Question no. 2",
+			"a": "Answer no.2"},
+			{"q": "Question no. 3",
+			"a": "Answer no.3"}
+			],		
+		"EST":
+			[{"q": "Küsimus nr. 1",
+			"a": "Vastus nr. 1"},
+			{"q": "Küsimus nr. 1",
+			"a": "Vastus nr. 1"},
+			{"q": "Küsimus nr. 1",
+			"a": "Vastus nr. 1"}
+			]	
+	},
+"result": false,
+"validity": true
+},
+{
+"name": "Banjamin Kyprianos",
+"nick": "Ben",
+"voting":
+	 { "vote1": { "valid": true, "count": 0 },
+		"vote2": { "valid": false, "count": 0 },
+		"vote3": { "valid": false, "count": 0 },
+		"vote4": { "valid": false, "count": 0 } },
+"qa":
+	{	"ENG": 
+			[{"q": "Would you like a new beginning?",
+			"a": "Overall no, however I would be interested in going through my life again knowing what I know now. That way I could see how much impact certain decisions have made on my life."},
+			{"q": "Who will remember you in 1000 years?",
+			"a": "Most likely no one. Potentially I’ll be a name in medical history as I was the first baby to have a bone-marrow transplant whilst still inside the womb. Although the person being remem- bered would be my godfather who performed the procedure, Professor Kypros Nicolaides."},
+			{"q": "What kind of pandemic would you like next?",
+			"a": "Something that is only lethal for dictators."},
+			{"q": "How do you hurt your loved ones?",
+			"a": "Forgetting birthdays and forgetting to stay in contact on a more regular basis."},
+			{"q": "When was the last time you cried and why?",
+			"a": "Watching S2 E5 of Derek. I don’t wish to spoil the story!"}
+			],		
+		"EST":
+			[{"q": "Kas sa tahaksid uuesti alustada?",
+			"a": "Üldiselt mitte, aga huvitav oleks oma elu uuesti kogeda, teades seda, mida ma praegu tean. Sellisel moel võiksin näha, kui palju on teatud otsused minu elukäiku mõjutanud."},
+			{"q": "Kes sind 1000 aasta pärast mäletab?",
+			"a": "Ilmselt mitte keegi. Võimalik, et mu nimi läheb kirja meditsiiniajalukku, kuna olin esimene beebi, kellele teostati veel emaüsas luuüdi siir- damine. Ilmselt mäletatakse inimest, kes selle protseduuri läbi viis – mu ristiisa professor Kypros Nicolaidest."},
+			{"q": "Millist pandeemiat sa järgmiseks soovid?",
+			"a": "Midagi sellist, mis oleks surmav vaid diktaatoritele."},
+			{"q": "Kuidas sa oma kõige kallimatele inimestele haiget teed?",
+			"a": "Ma unustan sünnipäevi ja unustan tihedamini suhelda."},
+			{"q": "Millal sa viimati nutsid ja miks?",
+			"a": "Siis kui vaatasin seriaali „Derek“ 2. hooaja 5. episoodi. Ma ei taha lugu ära rääkida!"}
+			]	
+	},
+"result": false,
+"validity": true
+}]

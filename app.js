@@ -15,7 +15,7 @@ const app = express();
 const PORT = process.env.PORT || 7968;
 const debug = Debug('app');
 
-app.use(morgan('tiny'));
+// app.use(morgan('tiny'));
 app.use(express.static(path.join(__dirname, '/public/')));
 
 app.set('views', './src/views');

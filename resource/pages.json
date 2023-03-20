@@ -1,0 +1,30 @@
+[{
+  "pageName": "voting",
+  "activeCode": "some javascript or html when active",
+  "passiveCode": "some passive javascript or html",
+  "state": "activeOrPassive"
+},
+{
+  "pageName": "vote1",
+  "activeCode": "some javascript or html when active",
+  "passiveCode": "some passive javascript or html",
+  "disabled": false
+},
+{
+  "pageName": "vote2",
+  "activeCode": "some javascript or html when active",
+  "passiveCode": "some passive javascript or html",
+  "disabled": false
+},
+{
+  "pageName": "vote3",
+  "activeCode": "some javascript or html when active",
+  "passiveCode": "some passive javascript or html",
+  "disabled": false
+},
+{
+  "pageName": "vote4",
+  "activeCode": "some javascript or html when active",
+  "passiveCode": "some passive javascript or html",
+  "disabled": false
+}]

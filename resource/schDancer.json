@@ -1,0 +1,534 @@
+[{
+"name": "Alain Divoux",
+"nick": "Alain",
+"voting":
+	 { "vote1": { "valid": true, "count": 0 },
+		"vote2": { "valid": false, "count": 0 },
+		"vote3": { "valid": true, "count": 0 },
+		"vote4": { "valid": true, "count": 0 } },
+"qa":
+	{	"ENG": 
+			[{"q": "As wars have been widespread “popular” throughout history, what do you like the most about war?",
+			"a": "I would say the laughable irony of throwing people at each other, killing them, and expecting different results than pure conflict. In other words, what I like the most about war is how it has always fixed problems throughout history. Sarcasm aside, there is nothing to like about war. Maybe just the fact that scattered bodies have been feeding the earth."},
+			{"q": "When were you your best self?",
+			"a": "I don’t believe I have ever been my best self, nor will I ever be. The principle of learning from your mistakes making you a better person and the fact that you always make mistakes throughout your whole life makes being your best self sort of unreachable. Doesn’t mean you’re a bad per- son all your life, just that there is always room for improvement. If you think your best version of yourself is behind you then you have given up on yourself, and if you think you’re at your best then you’re lying to yourself."},
+			{"q": "Who do you belong to?",
+			"a": "Interesting question. I go from the fact that you simply cannot develop any sort of ownership over any sentient being. So I belong to no one."}
+			],		
+		"EST":
+			[{"q": "Kuivõrd sõjad on ajaloos laialt levinud või „populaarsed“, mis sulle sõja juures kõige rohkem meeldib?",
+			"a": "Ma ütleksin, et on naeruväärne, kuidas inimesi üksteise vastu paisatakse, neid tapetakse, ja oodatakse teistsugust tulemust kui puhas konflikt. Teisisõnu, mulle meeldib sõja juures see, kuidas see on läbi ajaloo alati kõik probleemid ära lahendanud. Ilma sarkasmita, sõja juures pole midagi meeldivat. Ehk ainult tõsiasi, et maha jäävad surnukehad toidavad mulda."},
+			{"q": "Millal oli kõige parem sina?",
+			"a": "Ma ei usu, et olen iial olnud parim versioon endast, ilmselt ma pole seda kunagi. See, et oma vigadest õppimine teeb su paremaks inimeseks ning et inimene teeb vigu kogu oma elu, muudab parima mina saavutamise mingis mõttes kättesaamatuks. See ei tähenda, et me oleme kogu elu halvad inimesed, vaid et alati on arenguruumi. Kui arvad, et parim versioon sinust on seljataha jäänud, siis oled alla andnud, ja kui arvad, et oled praegu parim sina, siis sa valetad endale."},
+			{"q": "Kellele sa kuulud?",
+			"a": "Huvitav küsimus. Ma lähtuksin faktist, et ühtegi elusolendit ei saa omada. Ma ei kuulu seega kellelegi."}
+			]	
+	},
+"result": false,
+"validity": true
+},
+{
+"name": "Banjamin Kyprianos",
+"nick": "Ben",
+"voting":
+	 { "vote1": { "valid": true, "count": 0 },
+		"vote2": { "valid": false, "count": 0 },
+		"vote3": { "valid": false, "count": 0 },
+		"vote4": { "valid": false, "count": 0 } },
+"qa":
+	{	"ENG": 
+			[{"q": "Would you like a new beginning?",
+			"a": "Overall no, however I would be interested in going through my life again knowing what I know now. That way I could see how much impact certain decisions have made on my life."},
+			{"q": "Who will remember you in 1000 years?",
+			"a": "Most likely no one. Potentially I’ll be a name in medical history as I was the first baby to have a bone-marrow transplant whilst still inside the womb. Although the person being remem- bered would be my godfather who performed the procedure, Professor Kypros Nicolaides."},
+			{"q": "What kind of pandemic would you like next?",
+			"a": "Something that is only lethal for dictators."},
+			{"q": "How do you hurt your loved ones?",
+			"a": "Forgetting birthdays and forgetting to stay in contact on a more regular basis."},
+			{"q": "When was the last time you cried and why?",
+			"a": "Watching S2 E5 of Derek. I don’t wish to spoil the story!"}
+			],		
+		"EST":
+			[{"q": "Kas sa tahaksid uuesti alustada?",
+			"a": "Üldiselt mitte, aga huvitav oleks oma elu uuesti kogeda, teades seda, mida ma praegu tean. Sellisel moel võiksin näha, kui palju on teatud otsused minu elukäiku mõjutanud."},
+			{"q": "Kes sind 1000 aasta pärast mäletab?",
+			"a": "Ilmselt mitte keegi. Võimalik, et mu nimi läheb kirja meditsiiniajalukku, kuna olin esimene beebi, kellele teostati veel emaüsas luuüdi siir- damine. Ilmselt mäletatakse inimest, kes selle protseduuri läbi viis – mu ristiisa professor Kypros Nicolaidest."},
+			{"q": "Millist pandeemiat sa järgmiseks soovid?",
+			"a": "Midagi sellist, mis oleks surmav vaid diktaatoritele."},
+			{"q": "Kuidas sa oma kõige kallimatele inimestele haiget teed?",
+			"a": "Ma unustan sünnipäevi ja unustan tihedamini suhelda."},
+			{"q": "Millal sa viimati nutsid ja miks?",
+			"a": "Siis kui vaatasin seriaali „Derek“ 2. hooaja 5. episoodi. Ma ei taha lugu ära rääkida!"}
+			]	
+	},
+"result": false,
+"validity": true
+},
+{
+"name": "Colby Samuel Louis Catton",
+"nick": "Colby",
+"voting":
+	 { "vote1": { "valid": true, "count": 0 },
+		"vote2": { "valid": false, "count": 0 },
+		"vote3": { "valid": true, "count": 0 },
+		"vote4": { "valid": true, "count": 0 } },
+"qa":
+	{	"ENG": 
+			[{"q": "Would you like a new beginning?",
+			"a": "No, I’m fine as I am."},
+			{"q": "What do you blame your parents for?",
+			"a": "For not thinking about themselves enough."},
+			{"q": "Who will remember you in 1000 years?",
+			"a": "In a 1000 years... nobody will remember me."},
+			{"q": "Which colour guns do you like?",
+			"a": "Black or camo green guns look the best."},
+			{"q": "Free gasoline or free water?",
+			"a": "Free gasoline so I can make that dollar."}
+			],		
+		"EST":
+			[{"q": "Colby Samuel Louis Catton",
+			"a": "Ei, mulle sobib nii nagu on."},
+			{"q": "Milles sa oma vanemaid süüdistad?",
+			"a": "Et nad piisavalt enda peale ei mõtle."},
+			{"q": "Kes sind 1000 aasta pärast mäletab?",
+			"a": "1000 aasta pärast... siis ei mäleta mind keegi."},
+			{"q": "Mis värvi püssid sulle meeldivad?",
+			"a": "Mustad või kamo-rohelised püssid näevad kõige paremad välja."},
+			{"q": "Tasuta bensiin või tasuta vesi?",
+			"a": "Tasuta bensiin, et saaksin pappi teenida."}
+			]	
+	},
+"result": false,
+"validity": true
+},
+{
+"name": "Georgia Toni Hyrkäs",
+"nick": "Georgia",
+"voting":
+	 { "vote1": { "valid": true, "count": 0 },
+		"vote2": { "valid": false, "count": 0 },
+		"vote3": { "valid": true, "count": 0 },
+		"vote4": { "valid": true, "count": 0 } },
+"qa":
+	{	"ENG": 
+			[{"q": "Which colour guns do you like?",
+			"a": "The only gun I own is black – I would say that one is my favourite. It’s a massage gun and it’s great, I highly recommend investing in one."},
+			{"q": "Have you got any control over the way people perceive you?",
+			"a": "Well yes, I can choose how I present myself to people. They choose how to interpret my actions, but I feel that I have some influence."},
+			{"q": "What do you blame your parents for?",
+			"a": "My previously bad eyesight. (Now surgically corrected.)"},
+			{"q": "How many people do you share yourself with?",
+			"a": "A lot, but on different levels. I share the most with the ones I am closest to, and the least with the strangers who may view my social media posts."}
+			],		
+		"EST":
+			[{"q": "Mis värvi püssid sulle meeldivad?",
+			"a": "Ainus püstol, mis mul on, on must – võib öelda, et see on mu lemmik. Tegemist on massaaži- püstoliga ja see on suurepärane, soovitan tungivalt teistelgi sellesse investeerida."},
+			{"q": "Kas sul on kontroll selle üle, kuidas inimesed sind näevad?",
+			"a": "Jah, ikka, ma võin valida, millisest küljest ma end teistele näitan. Nemad valivad, kuidas nad mu tegusid tõlgendavad, aga tunnen, et mulgi on natuke mõjujõudu."},
+			{"q": "Milles sa oma vanemaid süüdistad?",
+			"a": "Mu varasema kehva nägemise pärast. (Nüüd on see kirurgiliselt korrigeeritud.)"},
+			{"q": "Kui paljudega sa end jagad?",
+			"a": "Paljudega, aga erinevas mahus. Jagan kõige rohkem mulle lähedaste inimestega, ja kõige vähem võõrastega, kes juhtuvad mu sotsiaal- meediapostitusi nägema."}
+			]
+	},
+"result": false,
+"validity": true
+},
+{
+"name": "Gerardo Avelar",
+"nick": "Gerardo",
+"voting":
+	 { "vote1": { "valid": true, "count": 0 },
+		"vote2": { "valid": false, "count": 0 },
+		"vote3": { "valid": true, "count": 0 },
+		"vote4": { "valid": true, "count": 0 } },
+"qa":
+	{	"ENG": 
+			[{"q": "Free gasoline or free water?",
+			"a": "Free water."},
+			{"q": "How many people do you share yourself with?",
+			"a": "I mostly share myself with people I am close to. I would say mainly with two people."},
+			{"q": "Which colour guns do you like?",
+			"a": "White and black."},
+			{"q": "Who really knows you?",
+			"a": "Nobody really, but the people close to me know a bigger percentage of me than others."},
+			{"q": "How much money would you sell your identity for?",
+			"a": "I would want a full payment each month until the end of my life. In reality, I would not sell my identity because I like my freedom."}
+			],		
+		"EST":
+			[{"q": "Tasuta bensiin või tasuta vesi?",
+			"a": "Tasuta vesi."},
+			{"q": "Kui paljudega sa end jagad?",
+			"a": "Jagan end enamjaolt oma lähedastega. Ütleksin, et põhiliselt kahe inimesega."},
+			{"q": "Mis värvi püssid sulle meeldivad?",
+			"a": "Valged ja mustad."},
+			{"q": "Kes sind päriselt tunnevad?",
+			"a": "Tõeliselt ei tunne mind keegi, aga mu lähedased tunnevad suuremat osa minust kui teised."},
+			{"q": "Kui suure summa eest sa oma identiteedi maha müüksid?",
+			"a": "Ma tahaksin elu lõpuni saada korralikku kuu- maksu. Reaalsuses ma oma identiteeti maha ei müüks, kuna mulle meeldib vabadus."}
+			]	
+	},
+"result": false,
+"validity": true
+},
+{
+"name": "Gus Upchurch",
+"nick": "Gus",
+"voting":
+	 { "vote1": { "valid": true, "count": 0 },
+		"vote2": { "valid": false, "count": 0 },
+		"vote3": { "valid": true, "count": 0 },
+		"vote4": { "valid": true, "count": 0 } },
+"qa":
+	{	"ENG": 
+			[{"q": "How much of your emotions is a pretense?",
+			"a": "It depends, how much of our social construct as a whole do you think is pretend?"},
+			{"q": "Who really knows you?",
+			"a": "Every day comes with a discovery of self to some extent, so no one? Except Panko – my dog just knows me."},
+			{"q": "Is your current self what you intended?",
+			"a": "No. I always intended to develop some sort of super powers. So far, nothing."},
+			{"q": "What kind of pandemic would you like next?",
+			"a": "None, thanks. Innocent people died worldwide. And I’m all for preventing unnecessary lives being taken away. Also, you know, the outdoors are cool..."},
+			{"q": "How do you hurt your loved ones?",
+			"a": "By withholding the truth of how I feel because of my need to keep the peace. Holding back doesn’t help anybody grow."}
+			],		
+		"EST":
+			[{"q": "Kui suur osa su emotsioonidest on teeseldud?",
+			"a": "Sõltub, kui suur osa meie sotsiaalsest kuvandist tervikuna on sinu arvates teesklus?"},
+			{"q": "Kes sind päriselt tunnevad?",
+			"a": "Iga päev toob uusi teadmisi enda kohta, seega mitte keegi? Välja arvatud Panko – mu koer lihtsalt tunneb mind."},
+			{"q": "Kas praegune sina oli taotluslik?",
+			"a": "Ei. Mul oli plaanis mõned supervõimed välja aren- dada. Siiani pole midagi juhtunud."},
+			{"q": "Millist pandeemiat sa järgmiseks soovid?",
+			"a": "Ei, aitäh! Süütud inimesed üle maailma said surma. Olen täiesti veendunud, et asjatuid surmasid tuleb ennetada. Pealegi, õues olla on ka lahe..."},
+			{"q": "Kuidas sa oma kõige kallimatele inimestele haiget teed?",
+			"a": "Sellega, et hoian enda teada, mida ma tõeliselt tunnen, kuna tunnen vajadust rahu säilitada. Ta- gasi hoidmine ei aita kellelgi kasvada ega areneda."}
+			]	
+	},
+"result": false,
+"validity": true
+},
+{
+"name": "Maria Engel",
+"nick": "Maria",
+"voting":
+	 { "vote1": { "valid": true, "count": 0 },
+		"vote2": { "valid": false, "count": 0 },
+		"vote3": { "valid": true, "count": 0 },
+		"vote4": { "valid": true, "count": 0 } },
+"qa":
+	{	"ENG": 
+			[{"q": "How much money would you sell your identity for?",
+			"a": "There is not enough money in the world to pay for that."},
+			{"q": "Why would you hate someone you have never met?",
+			"a": "How can you hate someone you never met? You would have just been influenced by others’ opinions!"},
+			{"q": "Who really knows you?",
+			"a": "Nobody really knows anyone better than themselves."},
+			{"q": "Who do you belong to?",
+			"a": "No one really. Although quite often it feels like my job owns me."},
+			{"q": "How much of your emotions is a pretense?",
+			"a": "Fake it ‘til you make it! At least when it’s neces- sary. Other than that, my emotions are as real as they can get, quite often you can read the state of my emotions from my face."},
+			{"q": "",
+			"a": ""}
+			],		
+		"EST":
+			[
+				{"q": "Kui suure raha eest sa oma identiteedi maha müüksid?",
+				"a": "Maailmas ei ole piisavalt raha, et seda summat maksta."},
+				{"q": "Miks sa vihkaksid kedagi, keda sa kunagi kohanud ei ole?",
+				"a": "Kuidas saab vihata kedagi, keda sa kunagi kohanud pole? Sellisel juhul on su hoiak kujunenud teiste arvamuste põhjal."},
+				{"q": "Kes sind päriselt tunnevad?",
+				"a": "Keegi ei tunne kedagi teist paremini kui iseennast."},
+				{"q": "Kellele sa kuulud?",
+				"a": "Tegelikult mitte kellelegi. Kuigi üsna tihti on tunne, et kuulun oma tööle."},
+				{"q": "Kui suur osa su emotsioonidest on teeseldud?",
+				"a": "Teesklemine päästab! Vähemalt siis kui vaja. Muul juhul on mu emotsioonid nii tõelised kui vähegi võimalik, tihtilugu paistavad mu emot- sioonid mu näost välja."}
+			]	
+	},
+"result": false,
+"validity": true
+},
+{
+"name": "Sayaka Nagahiro",
+"nick": "Sayaka",
+"voting":
+	 { "vote1": { "valid": true, "count": 0 },
+		"vote2": { "valid": false, "count": 0 },
+		"vote3": { "valid": true, "count": 0 },
+		"vote4": { "valid": true, "count": 0 } },
+"qa":
+	{	"ENG": 
+			[{"q": "As wars have been widespread or “popular” throughout history, what do you like the most about war?",
+			"a": "Would “popular” mean that people go to war just to be liked and famous? The only thing I applaud for is the soldier who is trying to pro- tect their country and family from invaders."},
+			{"q": "When was the last time you cried and why?",
+			"a": "My grandmother passed away four years ago on January 31st. The last time I cried was that day this year, remembering her, how little time we could spend together and how I couldn’t go to her funeral."},
+			{"q": "Who are you copying?",
+			"a": "My mum."},
+			{"q": "Is your current self what you intended?",
+			"a": "Who is happy with their current self anyway?"},
+			{"q": "What kind of pandemic would you like next?",
+			"a": "Laughing pandemic where people die from laughter."}
+			],		
+		"EST":
+			[{"q": "Kuivõrd sõjad on ajaloos laialt levinud või „populaarsed“, mis sulle sõja juures kõige rohkem meeldib?",
+			"a": "Kas „populaarsus“ tähendaks, et inimesed lähevad sõtta lihtsalt tunnustuse ja kuulsuse pälvimiseks? Mina aplodeerin üksnes sellele sõdurile, kes püüab oma riiki ja perekonda sissetungijate eest kaitsta."},
+			{"q": "Millal sa viimati nutsid ja mille pärast?",
+			"a": "Mu vanaema suri neli aastat tagasi 31. jaanuaril. Viimati nutsin tänavu sel samal päeval, mee- nutades teda ja kurvastades selle üle, kui vähe aega me saime koos veeta ning ka selle üle, et ma ei saanud ta matustele minna."},
+			{"q": "Keda sa kopeerid?",
+			"a": "Oma ema."},
+			{"q": "Kas praegune sina oli taotluslik?",
+			"a": "Kes üldse oma praeguse minaga rahul on?"},
+			{"q": "Millist pandeemiat sa järgmiseks soovid?",
+			"a": "Naerupandeemiat, milles inimesed surevad naeru kätte."}
+			]	
+	},
+"result": false,
+"validity": true
+},
+{
+"name": "William Halton",
+"nick": "Will",
+"voting":
+	 { "vote1": { "valid": true, "count": 0 },
+		"vote2": { "valid": false, "count": 0 },
+		"vote3": { "valid": true, "count": 0 },
+		"vote4": { "valid": true, "count": 0 } },
+"qa":
+	{	"ENG": 
+			[{"q": "Why would you hate someone you have never met?",
+			"a": "Because they stand for values and ideals that I hate or have done atrocities which would be deemed hateful."},
+			{"q": "How much money would you sell your identity for?",
+			"a": "My identity is constantly growing and adapting therefore I don’t think it is possible to sell. But anything over 2 500 000 Euros sounds good."},
+			{"q": "Have you got any control over the way people perceive you?",
+			"a": "Of course I do!"}
+			],		
+		"EST":
+			[{"q": "Miks sa vihkaksid kedagi, keda sa kunagi kohanud pole?",
+			"a": "Sest nad pooldavad väärtusi ja ideaale, mida ma vihkan, või on nad korda saatnud jõledusi, mida võib vihkamisväärseks pidada."},
+			{"q": "Kui suure raha eest sa oma identiteedi maha müüksid?",
+			"a": "Mu identiteet kasvab ja areneb pidevalt, niisiis ma ei usu, et seda on võimalik maha müüa. Aga kõik, mis jääb ülespoole 2 500 000 eurot, kõlab hästi."},
+			{"q": "Kas sul on kontroll selle üle, kuidas inimesed sind näevad?",
+			"a": "Loomulikult on!"}
+			]	
+	},
+"result": false,
+"validity": true
+},
+{
+"name": "Yukiko Yanagi",
+"nick": "Yukiko",
+"voting":
+	 { "vote1": { "valid": true, "count": 0 },
+		"vote2": { "valid": false, "count": 0 },
+		"vote3": { "valid": false, "count": 0 },
+		"vote4": { "valid": true, "count": 0 } },
+"qa":
+	{	"ENG": 
+			[{"q": "When were you your best self?",
+			"a": "For many people, the best time of their life is when they feel the happiest, but maybe it’s the other way around. The moments when I felt the best were usually unhappy or hard times. Happy times are rare, but having a purpose, overcoming the various hardships, and pushing yourself to aim for the goal make up the best times of my life."},
+			{"q": "Free gasoline or free water?",
+			"a": "Water, definitely! Humans can go without water for 3 or 4 days, which means that water is incredibly necessary for our survival. On the other hand, people have lived without gasoline for thousands of years and they laid the foun- dation of our modern society."},
+			{"q": "Who will remember you in 1000 years?",
+			"a": "In 1000 years, it is more likely that people won’t remember me. I am not bothered by the notion that after I disappear there will be no trace of me. However, I believe that every small thing that has happened in the past made the world of today. So my small actions, too, will leave something behind that will contribute to the future in 1000 years. Everything I do matters."}
+			],		
+		"EST":
+			[{"q": "Millal oli parim sina?",
+			"a": "Paljudele on elu parim aeg see, kui nad tunnevad end õnnelikuna, aga ehk on hoopis vastupidi. Tavaliselt olen olnud parim mina just õnnetutel või rasketel aegadel. Õnnelikud ajad on haruldased, aga eesmärgid, raskuste ületamine ja kõrgete sihtide nimel pingutamine on olnud mu elu parimad ajad."},
+			{"q": "Tasuta bensiin või tasuta vesi?",
+			"a": "Kindlasti vesi! Inimesed saavad veeta hakkama 3-4 päeva, mis tähendab, et vesi on ellujäämiseks ääretult vajalik. Teisalt elasid inimesed tuhandeid aastaid ilma bensiinita ning rajasid alustalad meie tänasele ühiskonnale."},
+			{"q": "Kes sind 1000 aasta pärast mäletab?",
+			"a": "1000 aasta pärast on tõenäolisem, et inimesed ei mäleta mind. Mind ei häiri mõte sellest, et pärast minu kadumist ei jää minust ühtki jälge. Küll aga usun, et iga pisiasi, mis on minevikus juhtunud, on mõjutanud tänapäeva maailma ku- junemist. Ka minu väikestest tegudest jääb maha miski, mis panustab 1000 aasta pärast saabu- vasse tulevikku. Kõik, mida ma teen, on oluline."}
+			]	
+	},
+"result": false,
+"validity": true
+},
+{
+"name": "Yuta Irikura",
+"nick": "Yuta",
+"voting":
+	 { "vote1": { "valid": true, "count": 0 },
+		"vote2": { "valid": false, "count": 0 },
+		"vote3": { "valid": true, "count": 0 },
+		"vote4": { "valid": true, "count": 0 } },
+"qa":
+	{	"ENG": 
+			[{"q": "Why would you hate someone you have never met?",
+			"a": "People do not dislike people without a reason. Even if they have not actually met the person, they will create an image of the person based on information they have heard from others or seen on television, and if that image does not suit them, they will dislike them."},
+			{"q": "Have you got any control over the way people perceive you?",
+			"a": "Everyone has different opinions. You might think someone is kind but others may think he’s not that kind. I don’t think everyone has the same mind. That’s why it is difficult to control how people perceive you."},
+			{"q": "Is your current self what you intended?",
+			"a": "I would say that I’m currently not the person I imagined I would be when I was a child. I never imagined that I would be dancing abroad as a professional dancer now. My life has been a very valuable experience, more so than I thought, so I’m having a lot of fun!"}
+			],		
+		"EST":
+			[{"q": "Miks sa vihkaksid kedagi, keda sa kunagi kohanud ei ole?",
+			"a": "Inimesed ei tunne teiste suhtes vastumeelsust põhjuseta. Isegi kui sa ei ole inimesega tege- likult kohtunud, tekib sul teistelt kuuldud info või televisioonis nähtu põhjal temast kujutlus- pilt. Kui see pilt ei meeldi, tekitab see inimese suhtes vastumeelsust."},
+			{"q": "Kas sul on kontroll selle üle, kuidas inimesed sind näevad?",
+			"a": "Kõigil on erinevad arusaamad. Sa võid arvata, et keegi on tore, aga teiste arvates ei pruugi ta nii tore olla. Ma ei arva, et kõik mõtlevad üht- moodi. Seetõttu on raske kontrollida, kuidas inimesed sind näevad."},
+			{"q": "Kas praegune sina oli taotluslik?",
+			"a": "Ma pole praegu selline inimene nagu lapsena ette kujutasin. Ma ei oleks iial arvanud, et olen nüüdseks välismaal professionaalne tantsija. Mu elu on andnud mulle palju väärtuslikke kogemusi, rohkem kui ma oleks arvanud, nii et mul on väga lõbus!"}
+			]	
+	},
+"result": false,
+"validity": true
+},
+{
+"name": "Rauno Zubko",
+"nick": "Rauno",
+"voting":
+	 { "vote1": { "valid": false, "count": 0 },
+		"vote2": { "valid": false, "count": 0 },
+		"vote3": { "valid": false, "count": 0 },
+		"vote4": { "valid": false, "count": 0 } },
+"qa":
+	{	"ENG": 
+			[{"q": "What do you blame your parents for?",
+			"a": "I blame my mother for everything, that seems like part of a mother’s role. I don’t blame my father in anything because I’ve never met him, which I have no one else to blame for than my mother. I love my mother very much. I guess that’s how it is – it’s easy to take it out on your loved ones and blame them for all your woes."},
+			{"q": "Which is your favourite gender? Why?",
+			"a": "I’m not interested in biological or judicial sex. Social gender gets on my nerves – society establishes certain norms for every growing person to mold themselves into, or else they’ll get beat up at school. However, I am fascinated by gender identity and self-expression. I know that I’m a coward in this, but I appreciate brave and open people who are willing to accept negativity for their authentic selves. They are changing the world!"},
+			{"q": "When did you last cry and why?",
+			"a": "I read a post by Estonian Animal Welfare Union about yet another tortured animal and their rescue operation. The overview was detailed and included pictures. I read it, watched and cried, meanwhile thinking of all the horrible things I would do to this person who behaved in such a way with a helpless animal. I was feeling sad and sadistic at the same time."}
+			],		
+		"EST":
+			[{"q": "Milles sa oma vanemaid süüdistad?",
+			"a": "Oma ema süüdistan ma kõiges, see vist ongi osa ema rollist. Isa ma ei süüdista milleski, sest ma pole teda kordagi näinud ja selles ei ole mul mitte kedagi teist süüdistada kui oma ema. Ma väga armastan oma ema. Eks see vist nii ole, et kõige kallimate peal on end hea välja elada ja neid kõigis oma hädades süüdistada."},
+			{"q": "Milline sugu sulle meeldib? Miks?",
+			"a": "Mind bioloogiline või juriidiline sugu üldse ei huvita. Sotsiaalne sugu ajab mind närvi – ühiskond kehtestab mingid normid, millesse iga kasvav inimene peaks end suruma, muidu saab koolis nurga taga peksa. Küll aga paeluvad mind väga sooline identiteet ja eneseväljendus. Tean, et ma ise olen selles arg, kuid hindan julgeid ja avatud inimesi, kes on valmis oma ausa enesekuvandi eest ka negatiivset vastu võtma. Nemad muudavad maailma!"},
+			{"q": "Millal sa viimati nutsid ja mille pärast?",
+			"a": "Lugesin Eestimaa Loomakaitse Liidu postitust järjekordsest piinatud loomast ja tema pääste- operatsioonist. Põhjaliku olukorrakirjelduse juurde olid ka pildid lisatud. Lugesin, vaatasin ja nutsin, samal ajal mõtlesin, mida kõike kohutavat ma selle inimesega teeksin, kes abitu loomaga nii käitus. Mind valdasid korraga kurbus ja sadistlikud tungid."}
+			]	
+	},
+"result": false,
+"validity": true
+},
+{
+"name": "Kaia Tungal",
+"nick": "Kaia",
+"voting":
+	 { "vote1": { "valid": false, "count": 0 },
+		"vote2": { "valid": false, "count": 0 },
+		"vote3": { "valid": false, "count": 0 },
+		"vote4": { "valid": false, "count": 0 } },
+"qa":
+	{	"ENG": 
+			[{"q": "Who are you copying?",
+			"a": "I am copying myself every day, whether I want to or not. Otherwise, nobody would recognize me. I copy everything I have seen and learned, everything I hear and everything I dream of."},
+			{"q": "How many people do you share yourself with?",
+			"a": "Lots of people, to some extent. But not fully. I think it is impossible to share yourself completely. Being able to share your self with yourself is already very good."},
+			{"q": "When were you your best self?",
+			"a": "I will be at my best tomorrow. And the day after that. I promise!"}
+			],		
+		"EST":
+			[{"q": "Keda sa kopeerid?",
+			"a": "Kopeerin ennast iga päev. Tahes-tahtmata. Muidu ei tunneks mind keegi ära. Kopeerin kõike, mida olen näinud ja õppinud, mida kuulen ja millest unistan."},
+			{"q": "Kui paljudega sa end jagad?",
+			"a": "Mingi piirini väga paljudega. Küll mitte täielikult. Arvan, et täielikult end jagada on võimatu. On väga-väga hästi kui me suudame iseendagagi jagada."},
+			{"q": "Millal oli kõige parem sina?",
+			"a": "Homme olen kõige parem. Ja päev pärast seda. Luban!"}
+			]	
+	},
+"result": false,
+"validity": true
+},
+{
+"name": "Jonas Kaarnamets",
+"nick": "jonas.f.k",
+"voting":
+	 { "vote1": { "valid": false, "count": 0 },
+		"vote2": { "valid": false, "count": 0 },
+		"vote3": { "valid": false, "count": 0 },
+		"vote4": { "valid": false, "count": 0 } },
+"qa":
+	{	"ENG": 
+			[{"q": "Which pandemic would you like next?",
+			"a": "A stomach virus pandemic would be interesting."},
+			{"q": "As wars have been widespread or “popular” throughout history, what do you like the most about war?",
+			"a": "It seems that wars are preceded by a strong mounting of tensions in society, and the out- break of war finally releases these tensions. That happened with World War II, and the same thing happened now before the Russo- Ukranian war. This dissolving of tension is somewhat of a relief."},
+			{"q": "Free gasoline or free water?",
+			"a": "Water. You can always go on foot but without water life would get uncomfortable pretty fast."},
+			{"q": "How much of your emotions is a pretense?",
+			"a": "About 35%."},
+			{"q": "Who do you belong to?",
+			"a": "To the image created by my subconscious, of my ideal self."}
+			],		
+		"EST":
+			[{"q": "Millist pandeemiat sa järgmiseks soovid?",
+			"a": "Kõhuviiruse pandeemia oleks päris huvitav."},
+			{"q": "Kuivõrd sõjad on ajaloos laialt levinud või „populaarsed“, mis sulle sõja juures kõige rohkem meeldib?",
+			"a": "Mulle tundub, et sõdadele eelneb ühiskonnas üldiselt väga tugev pingete kuhjumine ning sõja puhkemine lõpuks vabastab need pinged. Nii oli II maailmasõja ajal, sama oli ka nüüd enne Vene-Ukraina sõda. See pingete lahus- tumine mõjub mingil määral kergendavalt."},
+			{"q": "Kas tasuta bensiin või tasuta vesi?",
+			"a": "Vesi. Jala võid ju käia, aga ilma veeta läheb elu päris kiiresti ebamugavaks."},
+			{"q": "Kui suur osa su emotsioonidest on teeseldud?",
+			"a": "Umbes 35%."},
+			{"q": "Kellele sa kuulud?",
+			"a": "Oma alateadvuse kujutluspildile ideaalsest iseendast."}
+			]	
+	},
+"result": false,
+"validity": true
+},
+{
+"name": "Mikk-Mait Kivi",
+"nick": "Mikk-Mait",
+"voting":
+	 { "vote1": { "valid": false, "count": 0 },
+		"vote2": { "valid": false, "count": 0 },
+		"vote3": { "valid": false, "count": 0 },
+		"vote4": { "valid": false, "count": 0 } },
+"qa":
+	{	"ENG": 
+			[{"q": "Who really knows you?",
+			"a": "Everyone who talks to me, knows me. They may not know it themselves and I may not realise it right away. People are consistent by nature, therefore everything you can sense in me or find out when talking to me is real. Creating a pretty façade is as much a real part of me as is crying by myself. Communication between people does mean really knowing people, anything else is not possible. If I worried about who really knows me or whom I really know, I think I would very quickly find myself very alone."},
+			{"q": "How do you hurt your loved ones?",
+			"a": "With silence. I have tried to learn to choose my words carefully as to not cause hurt with them; occasionally that takes time. The silence during that time and not knowing usually cause the most fears and dangerous, hurtful thoughts in my significant other."},
+			{"q": "Have you got any control over the way people perceive you?",
+			"a": "After having read Luigi Pirandello’s book One, No One and One Hundred Thousand some years ago, I have come to terms with barely having control over the way I perceive myself, not to mention how everyone else perceives me. Every time I look in the mirror, I wonder if others see me the way I see myself in the mirror, or if they see me the way I feel when I’m not looking in the mirror. Probably in a different way altogether."}
+			],		
+		"EST":
+			[{"q": "Kes sind päriselt tunnevad?",
+			"a": "Mind tunnevad päriselt kõik, kes minuga suhtlevad. Nad ei pruugi seda ise teada ja mina võib-olla ei saa sellest alati kohe aru. Inimesed on olemuselt terviklikud. Seega kõik, mida on võimalik minus tunnetada või minuga suheldes teada saada, on päriselt. Ilusa fassaadi loomine on sama suur pärisosa minust kui üksinda patja nutmine. Inimeste vaheline kommunikatsioon ongi päriselt tundmine, muu ei ole võimalik. Kui hakkaksin muretsema selle pärast, kes mind päriselt tunneb või keda mina päriselt tunnen, arvan, et jääksin väga kiiresti väga üksi."},
+			{"q": "Kuidas sa oma kõige kallimatele inimesetele haiget teed?",
+			"a": "Vaikusega. Ma olen proovinud õppida hoolikalt sõnu valima, et nendega mitte haiget teha; aeg- ajalt võtab see aega. Selle aja jooksul kestev vaikus ja teadmatus tekitavad kallimas kõige rohkem hirmusid ja ohtlikke mõtteid, mis teevad haiget."},
+			{"q": "Kas sul on kontroll selle üle, kuidas inimesed sind näevad?",
+			"a": "Peale seda, kui lugesin aastaid tagasi Luigi Pirandello raamatut „Üks, ei ühtki, tuhat tükki“, olen leppinud, et mul on vaevu kontroll selle üle, kuidas ma iseennast tajun, rääkimata sellest, kuidas teised mind näevad. Iga kord, kui ma peeglisse vaatan, mõtlen, kas teised näevad mind nii nagu mina iseennast peeglist, või näevad nad mind sellisena nagu ma ennast tunnen, kui ma ei vaata peeglisse. Tõenäoliselt hoopis kuidagi kolmandat moodi."}
+			]	
+	},
+"result": false,
+"validity": true
+},
+{
+"name": "One song",
+"nick": "1",
+"voting":
+	 { "vote1": { "valid": false, "count": 0 },
+		"vote2": { "valid": true, "count": 0 },
+		"vote3": { "valid": false, "count": 0 },
+		"vote4": { "valid": false, "count": 0 } },
+
+"result": false,
+"validity": true
+},
+{
+"name": "Two songs",
+"nick": "2",
+"voting":
+	 { "vote1": { "valid": false, "count": 0 },
+		"vote2": { "valid": true, "count": 0 },
+		"vote3": { "valid": false, "count": 0 },
+		"vote4": { "valid": false, "count": 0 } },
+
+"result": false,
+"validity": true
+},
+{
+"name": "Three songs",
+"nick": "3",
+"voting":
+	 { "vote1": { "valid": false, "count": 0 },
+		"vote2": { "valid": true, "count": 0 },
+		"vote3": { "valid": false, "count": 0 },
+		"vote4": { "valid": false, "count": 0 } },
+
+"result": false,
+"validity": true
+}]
