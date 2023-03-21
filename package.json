@@ -22,7 +22,7 @@
   },
   "nodemonConfig": {
     "restartable": "rs",
-    "delay": 2500
+    "delay": 1000
   },
   "type": "module"
 }

@@ -9,18 +9,38 @@ const url = 'mongodb+srv://kriisid:6UNt3yQEzYVIZXHM@kriisidcluster.elkybmy.mongo
 const client = new MongoClient(url);
 
 const dbName = client.db('votingSystem');
-const songs = dbName.collection('songs');
-const dancers = dbName.collection('dancers');
+const people = dbName.collection('people');
+
+// * Reach stuff about VOTE 1
+const vote1Q = { "voting.vote1.valid": true };
+const vote1P = { _id: 0, nick: 1, "voting.vote1.count": 1 };
+const vote1S = { "voting.vote1.count": -1 };
+
+const vote1sum = await people.aggregate([{$group: { _id: null, sumVote1:{$sum:"$voting.vote1.count"}}}]).toArray();
+console.log(vote1sum);
+
+// * Reach stuff about VOTE 2
+const vote2Q = { "voting.vote2.valid": true };
+const vote2P = { _id: 0, nick: 1, "voting.vote2.count": 1 };
+const vote2S = { "voting.vote2.count": -1 };
+
+const vote2sum = await people.aggregate([{$group: { _id: null, sumVote2:{$sum:"$voting.vote2.count"}}}]).toArray();
+
+// * Reach stuff about VOTE 3
+const vote3Q = { "voting.vote3.valid": true };
+const vote3P = { _id: 0, nick: 1, "voting.vote3.count": 1 };
+const vote3S = { "voting.vote3.count": -1 };
+
+const vote3sum = await people.aggregate([{$group: { _id: null, sumVote3:{$sum:"$voting.vote3.count"}}}]).toArray();
+
+// * Reach stuff about VOTE 4
+const vote4Q = { "voting.vote4.valid": true };
+const vote4P = { _id: 0, nick: 1, "voting.vote4.count": 1 };
+const vote4S = { "voting.vote4.count": -1 };
+
+const vote4sum = await people.aggregate([{$group: { _id: null, sumVote4:{$sum:"$voting.vote4.count"}}}]).toArray();
+
 const pages = dbName.collection('pages');
-
-const queryAll = { $or: [ {'vote1': true}, {'valid': true} ] };
-const projectionAll = { _id: 0, nick: 1, vote1Count: 1, vote2Count: 1, vote3Count: 1, name: 1, votes: 1 };
-const sort1 = { vote1Count: -1 };
-const sort2 = { votes: -1 };
-const sort3 = { vote2Count: -1 };
-const sort4 = { vote3Count: -1 };
-
-const sumAll = await dancers.aggregate([{$group: { _id: null, sumVote1:{$sum:"$vote1Count"}}}]).toArray();
 
 votingRouter.route('/').get((req, res) => {
   res.render('voting');
@@ -29,12 +49,27 @@ votingRouter.route('/').get((req, res) => {
 votingRouter.route('/vote1').get((req, res) => {
   (async function mongo(){
     try {
+      const votesQ = await people.find(vote1Q).project(vote1P).toArray();
       const currentVote = 'vote1';
-      const query = { vote1: true };
-      const projection = { _id: 0, nick: 1, vote1Count: 1 };
-      const votesQ = await dancers.find(query).project(projection).toArray();
-      // debug(votesQ);
-      res.render('vote', {votesQ, currentVote});
+      res.render('vote1', { votesQ, currentVote });
+    } catch (error) {
+      debug(error.stack);
+    }
+  }())
+});
+
+votingRouter.route('/vote1Confirm').get((req, res) => {
+  const { vote1 } = req.query;
+  debug(vote1);
+  (async function mongo(){
+    try {
+      const query = { nick: vote1 };
+      const update = { $inc: {"voting.vote1.count": 1} };
+      people.updateOne(query, update);
+      const votesQ = await people.find(vote1Q).project(vote1P).toArray();
+      const currentVote = 'vote1';
+      res.render('voting', {votesQ, currentVote});
+      debug(votesQ);
     } catch (error) {
       debug(error.stack);
     }
@@ -61,27 +96,10 @@ votingRouter.route('/vote1Percent').get((req, res) => {
   // console.log(req.query);
   (async function mongo(){
     try {
-      const dancer1Result = await dancers.find(queryAll).project(projectionAll).sort(sort1).toArray();
-      res.status(200).json(dancer1Result);
-    } catch (error) {
-      debug(error.stack);
-    }
-  }())
-});
-
-votingRouter.route('/vote1Confirm').get((req, res) => {
-  const { vote1 } = req.query;
-  console.log(vote1);
-  (async function mongo(){
-    try {
-      debug('connected to Mongo');
-      const query = { nick: vote1 };
-      const update = { $inc: {vote1Count: 1} };
-      dancers.updateOne(query, update);
-      const votesQ = await dancers.find({ vote1: true }).project({ _id: 0, nick: 1, vote1Count: 1}).toArray();
-      const currentVote = 'vote1';
-      res.render('voting', {votesQ, currentVote});
-      debug(votesQ);
+      const voteCount = await people.find(vote1Q).project(vote1P).sort(vote1S).toArray();
+      const vote1sum = await people.aggregate([{$group: { _id: '00', sumVote1:{$sum:"$voting.vote1.count"}}}]).toArray();
+      const addedSum = voteCount.concat(vote1sum);
+      res.status(200).json(addedSum);
     } catch (error) {
       debug(error.stack);
     }
@@ -91,12 +109,27 @@ votingRouter.route('/vote1Confirm').get((req, res) => {
 votingRouter.route('/vote2').get((req, res) => {
   (async function mongo(){
     try {
+      const votesQ = await people.find(vote2Q).project(vote2P).toArray();
       const currentVote = 'vote2';
-      const query = { valid: true };
-      const projection = { _id: 0, nick: 1, votes: 1 };
-      const votesQ = await songs.find(query).project(projection).toArray();
+      res.render('vote2', { votesQ, currentVote });
+    } catch (error) {
+      debug(error.stack);
+    }
+  }())
+});
+
+votingRouter.route('/vote2Confirm').get((req, res) => {
+  const { vote2 } = req.query;
+  debug(vote2);
+  (async function mongo(){
+    try {
+      const query = { nick: vote2 };
+      const update = { $inc: {"voting.vote2.count": 1} };
+      people.updateOne(query, update);
+      const votesQ = await people.find(vote2Q).project(vote2P).toArray();
+      const currentVote = 'vote2';
+      res.render('voting', {votesQ, currentVote});
       debug(votesQ);
-      res.render('vote', {votesQ, currentVote});
     } catch (error) {
       debug(error.stack);
     }
@@ -122,28 +155,10 @@ votingRouter.route('/vote2Percent').get((req, res) => {
   // console.log(req.query);
   (async function mongo(){
     try {
-      const songsResult = await songs.find(queryAll).project(projectionAll).sort(sort2).toArray();
-      res.status(200).json(songsResult);
-    } catch (error) {
-      debug(error.stack);
-    }
-  }())
-});
-
-votingRouter.route('/vote2Confirm').get((req, res) => {
-  console.log(req.query);
-  const { vote2 } = req.query;
-  console.log(vote2);
-  (async function mongo(){
-    try {
-      const query = { nick: vote2 };
-      const update = { $inc: {votes: 1} };
-      songs.updateOne(query, update);
-      const votesQ = await songs.find({ valid: true }).project({ _id: 0, nick: 1, votes: 1 }).toArray();
-      const currentVote = 'vote2';
-      res.render('voting', {votesQ, currentVote});
-      debug(votesQ);
-
+      const voteCount = await people.find(vote2Q).project(vote2P).sort(vote2S).toArray();
+      const vote2sum = await people.aggregate([{$group: { _id: '00', sumVote2:{$sum:"$voting.vote2.count"}}}]).toArray();
+      const addedSum = voteCount.concat(vote2sum);
+      res.status(200).json(addedSum);
     } catch (error) {
       debug(error.stack);
     }
@@ -153,13 +168,27 @@ votingRouter.route('/vote2Confirm').get((req, res) => {
 votingRouter.route('/vote3').get((req, res) => {
   (async function mongo(){
     try {
+      const votesQ = await people.find(vote3Q).project(vote3P).toArray();
       const currentVote = 'vote3';
-      const query = { vote2: true };
-      const projection = { _id: 0, nick: 1, vote2Count: 1 };
-      const votesQ = await dancers.find(query).project(projection).toArray();
-      debug(votesQ);
+      res.render('vote3', { votesQ, currentVote });
+    } catch (error) {
+      debug(error.stack);
+    }
+  }())
+});
 
-      res.render('vote', {votesQ, currentVote});
+votingRouter.route('/vote3Confirm').get((req, res) => {
+  const { vote3 } = req.query;
+  debug(vote3);
+  (async function mongo(){
+    try {
+      const query = { nick: vote3 };
+      const update = { $inc: {"voting.vote3.count": 1} };
+      people.updateOne(query, update);
+      const votesQ = await people.find(vote3Q).project(vote3P).toArray();
+      const currentVote = 'vote3';
+      res.render('voting', {votesQ, currentVote});
+      debug(votesQ);
     } catch (error) {
       debug(error.stack);
     }
@@ -185,27 +214,10 @@ votingRouter.route('/vote3Percent').get((req, res) => {
   // console.log(req.query);
   (async function mongo(){
     try {
-      const dancer2Result = await dancers.find(queryAll).project(projectionAll).sort(sort3).toArray();
-      res.status(200).json(dancer2Result);
-    } catch (error) {
-      debug(error.stack);
-    }
-  }())
-});
-
-votingRouter.route('/vote3Confirm').get((req, res) => {
-  console.log(req.query);
-  const { vote3 } = req.query;
-  console.log(vote3);
-  (async function mongo(){
-    try {
-      const query = { nick: vote3 };
-      const update = { $inc: {vote2Count: 1} };
-      dancers.updateOne(query, update);
-      const votesQ = await dancers.find({ vote2: true }).project({ _id: 0, nick: 1, vote2Count: 1 }).toArray();
-      const currentVote = 'vote3';
-      res.render('voting');
-      debug(votesQ);
+      const voteCount = await people.find(vote3Q).project(vote3P).sort(vote3S).toArray();
+      const vote1sum = await people.aggregate([{$group: { _id: '00', sumVote3:{$sum:"$voting.vote3.count"}}}]).toArray();
+      const addedSum = voteCount.concat(vote3sum);
+      res.status(200).json(addedSum);
     } catch (error) {
       debug(error.stack);
     }
@@ -215,12 +227,27 @@ votingRouter.route('/vote3Confirm').get((req, res) => {
 votingRouter.route('/vote4').get((req, res) => {
   (async function mongo(){
     try {
+      const votesQ = await people.find(vote4Q).project(vote4P).toArray();
       const currentVote = 'vote4';
-      const query = { vote3: true };
-      const projection = { _id: 0, nick: 1, vote3Count: 1 };
-      const votesQ = await dancers.find(query).project(projection).toArray();
+      res.render('vote4', { votesQ, currentVote });
+    } catch (error) {
+      debug(error.stack);
+    }
+  }())
+});
+
+votingRouter.route('/vote4Confirm').get((req, res) => {
+  const { vote4 } = req.query;
+  debug(vote4);
+  (async function mongo(){
+    try {
+      const query = { nick: vote4 };
+      const update = { $inc: {"voting.vote4.count": 1} };
+      people.updateOne(query, update);
+      const votesQ = await people.find(vote4Q).project(vote4P).toArray();
+      const currentVote = 'vote4';
+      res.render('voting', {votesQ, currentVote});
       debug(votesQ);
-      res.render('vote', {votesQ, currentVote});
     } catch (error) {
       debug(error.stack);
     }
@@ -246,28 +273,10 @@ votingRouter.route('/vote4Percent').get((req, res) => {
   // console.log(req.query);
   (async function mongo(){
     try {
-      const dancer3Result = await dancers.find(queryAll).project(projectionAll).sort(sort4).toArray();
-      res.status(200).json(dancer3Result);
-    } catch (error) {
-      debug(error.stack);
-    }
-  }())
-});
-
-votingRouter.route('/vote4Confirm').get((req, res) => {
-  console.log(req.query);
-  const { vote4 } = req.query;
-  console.log(vote4);
-  (async function mongo(){
-    try {
-      const query = { nick: vote4 };
-      const update = { $inc: {vote3Count: 1} };
-      dancers.updateOne(query, update);
-      const votesQ = await dancers.find({ vote3: true }).project({ _id: 0, nick: 1, vote3Count: 1 }).toArray();
-      const currentVote = 'vote4';
-      res.render('voting', {votesQ, currentVote});
-      debug(votesQ);
-
+      const voteCount = await people.find(vote4Q).project(vote4P).sort(vote4S).toArray();
+      const vote4sum = await people.aggregate([{$group: { _id: '00', sumVote4:{$sum:"$voting.vote4.count"}}}]).toArray();
+      const addedSum = voteCount.concat(vote4sum);
+      res.status(200).json(addedSum);
     } catch (error) {
       debug(error.stack);
     }

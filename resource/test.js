@@ -1,22 +1,28 @@
 import people from './schDancer.json' assert { type: 'json' };
 
-console.log(people);
+// console.log(people);
 
 //!First level stuff here
+
+// * GET the name of the document
 const name = people[0].name;
 console.log(name);
 console.log('-----');
 const nick = people[0].nick;
 console.log(nick);
 console.log('-----');
+console.log('-----');
+
+// * GET ALL the voting info
 const voting = people[0].voting;
 console.log(voting);
 console.log('-----');
-const qa = people[0].qa;
-console.log(qa);
-console.log('-----');
+// const qa = people[0].qa;
+// console.log(qa);
+// console.log('-----');
 const result = people[0].result;
 console.log(result);
+console.log('-----');
 console.log('-----');
 
 // * ONLY OBJECT METHODS
@@ -30,6 +36,7 @@ console.log(vote1Valid);
 console.log('-----');
 const vote1Count = vote1.count;
 console.log(vote1Count);
+console.log('-----');
 console.log('-----');
 
 // // * OBJECT AND ARRAY COMBINED

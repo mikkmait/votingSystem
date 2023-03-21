@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/voting.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="main">
+  <form id="vote1Form" action="/voting/<%=currentVote%>Confirm" method="GET">
+    <div class="votingBox">
+      <% votesQ.map((dancer) => { %>
+        <div class="dancer">
+          <input type="radio" class="radioButton findMe" name="<%=currentVote%>" value="<%=dancer.nick%>" id="<%=dancer.nick%>">
+          <label class="radioButton" for="<%=dancer.nick%>">
+            <span class="name" id="element"><%=dancer.nick%> | <%=dancer.voting.vote1.count%> votes</span>
+            <div class="accumulator" style="width:100%">
+              <div class="accumulation" id="<%=dancer.nick%>acc"></div>
+            </div>
+          </label>
+        </div>
+      <% }) %>
+      <div>
+        <input type="submit" class="submit radioButton" value="Submit vote!">
+      </div>
+      <div>
+        <button name="pages" value="back" class="submit" action="/voting">BACK</button>
+      </div>
+    </div>
+  </form>
+</div>
+<script>
+  const radioButtons = document.getElementsByClassName('radioButton');
+  const currentVote = document.getElementsByClassName('findMe')[0].name;
+  
+  async function getDisabled() {
+    const res = await fetch('http://localhost:8079/voting/' + currentVote + 'Disable',
+    {
+      method: 'GET'
+    })
+    const pageDisabled = await res.json();
+    for (let i = 0; i < radioButtons.length; i++) {
+    radioButtons[i].disabled = pageDisabled[0].disabled;
+    }
+  };
+  async function getWidth() {
+    const res = await fetch('http://localhost:8079/voting/' + currentVote + 'Percent',
+    {
+      method: 'GET'
+    });
+    const resJSON = await res.json();
+    const poppedJSON = resJSON.pop();
+    resJSON.forEach(element => {
+      const elementFind = document.getElementById(element.nick + 'acc');
+      const candidateVoteCount = element.voting.vote1.count;
+      const calc = candidateVoteCount * 100 / poppedJSON.sumVote1;
+      elementFind.style.width = calc + '%';
+    });
+  };
+getDisabled();
+getWidth();
+</script>
+</body>
+</html>
