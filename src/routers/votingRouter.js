@@ -1,6 +1,8 @@
 import express from 'express';
 import Debug from 'debug';
 import { MongoClient } from 'mongodb';
+import * as dotenv from 'dotenv';
+dotenv.config();
 
 const votingRouter = express.Router();
 const debug = Debug('app');
