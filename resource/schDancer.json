@@ -2,7 +2,7 @@
 "name": "Alain Divoux",
 "nick": "Alain",
 "voting":
-	 { "vote1": { "valid": true, "count": 0 },
+	 { "vote1": { "valid": true, "count": 0, "question": "Kes ei tee etenduse algust? / Who will not take part in the beginning?"},
 		"vote2": { "valid": false, "count": 0 },
 		"vote3": { "valid": true, "count": 0 },
 		"vote4": { "valid": true, "count": 0 } },
@@ -531,4 +531,9 @@
 
 "result": false,
 "validity": true
-}]
+},
+{
+"winner": "",
+"trueWinner": true
+}
+]

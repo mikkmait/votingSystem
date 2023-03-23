@@ -39,15 +39,9 @@ div {
     left: calc(50vw + 16px);
 }
 
-iframe {
-    margin: 0px;
-    padding: 8px;
-    border: 1px dashed rgba(255, 0, 127, 100%);
-}
-
 #iVoting {
     display: block;
-    width: 50vw;
+    width: 100vw;
     height: 100vh;
 }
 

@@ -1,0 +1,8 @@
+{
+ "apps" : [{
+ "name" : "voting",
+ "script" : "app.js",
+ "watch" : true,
+ "cwd" : "/data03/virt118479/domeenid/www.kriis.rip/htdocs"
+ }]
+}

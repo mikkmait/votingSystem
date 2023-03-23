@@ -114,18 +114,19 @@ adminRouter.route('/initializeAllVotes').get((req, res) => {
 })
 
 adminRouter.route('/activateVotes').get((req, res) => {
-  console.log(req.query);
+  // console.log(req.query);
   const data = req.query.push;
-  console.log(data);
+  // console.log(data);
   const push = JSON.parse(data);
-  console.log(push);
-  console.log(push.pageName);
-  console.log(push.disabled);
+  // console.log(push);
+  // console.log(push.pageName);
+  // console.log(push.disabled);
   (async function mongo(){
     const results1 = await people.find(vote1Q).project(vote1P).sort(vote1S).limit(3).toArray();
     const results2 = await people.find(vote2Q).project(vote2P).sort(vote2S).limit(3).toArray();
     const results3 = await people.find(vote3Q).project(vote3P).sort(vote3S).limit(3).toArray();
     const results4 = await people.find(vote4Q).project(vote4P).sort(vote4S).limit(3).toArray();
+    
     try {
       const query = { pageName: push.pageName };
       const update = { $set: { disabled: push.disabled }};
