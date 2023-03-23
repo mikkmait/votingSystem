@@ -6,11 +6,13 @@ const votingRouter = express.Router();
 const debug = Debug('app');
 
 // ! MONGODB database stuff
+
 // * connecting to the database
-const url = 'mongodb+srv://kriisid:6UNt3yQEzYVIZXHM@kriisidcluster.elkybmy.mongodb.net/?retryWrites=true&w=majority';
+const url = process.env.ATLAS_URI;
 const client = new MongoClient(url);
 const dbName = client.db('votingSystem');
 const people = dbName.collection('people');
+
 // * Reach stuff about VOTE 1
 const vote1Q = { "voting.vote1.valid": true };
 const vote1P = { _id: 0, nick: 1, "voting.vote1.count": 1 };
